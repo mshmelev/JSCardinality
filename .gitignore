@@ -197,5 +197,3 @@ FakesAssemblies/
 
 # Typescript
 *.js.map
-BiasCorrection.js
-Estimator.js
