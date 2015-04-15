@@ -181,10 +181,10 @@ var Cardinality;
             return res;
         };
         Estimator.longToString = function (n) {
-            var s = n[0].toString(16);
+            var s = Number(n[0]).toString(16);
             while (s.length < 8)
                 s = "0" + s;
-            s = n[1].toString(16) + s;
+            s = Number(n[1]).toString(16) + s;
             return s;
         };
         /**
